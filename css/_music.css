@@ -1,0 +1,84 @@
+.music {
+  background: url("/img/music_bg_white.jpg") 0 0/cover no-repeat; }
+
+.container {
+  width: 1200px;
+  margin: 0px auto; }
+
+.music__body {
+  padding: 80px 0px 80px 0px;
+  width: 100%; }
+
+.title {
+  color: #555555;
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px 0px 24px 0px; }
+
+.player {
+  max-width: 600px;
+  width: 100%;
+  padding: 25px;
+  background-color: #998675;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 -3px 0 #736357;
+  box-shadow: inset 0 -3px 0 #736357; }
+
+.author {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px; }
+
+.song {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0px 25px 0px; }
+
+.progress__container {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  width: 100%;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 0px 25px 0px; }
+
+.progress {
+  background-color: #d3c1ad;
+  height: 6px;
+  border-radius: 5px;
+  width: 100px;
+  -webkit-box-shadow: inset 0 -3px 0 #736357;
+  box-shadow: inset 0 -3px 0 #736357; }
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0px auto; }
+
+.prev:hover,
+.play:hover,
+.next:hover {
+  opacity: 0.6; }
